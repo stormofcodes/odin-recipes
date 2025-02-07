@@ -1,2 +1,2 @@
-# odin-recipies
-Odin Recipies. Project for practicing basic HTML and Git commits via The Odin Project.
+# odin-recipes
+Odin Recipes. Project for practicing basic HTML and Git commits via The Odin Project.
