@@ -1,15 +1,29 @@
 body {
-    background-color: bisque;
+    background-color: #ebe1c5;
+}
+
+.head,
+.head2,
+.head3 {
+
+    color: rgb(80, 49, 14);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .head {
-
+    font-weight: 800;
+    font-size: 100px;
 }
 
 .head2 {
-
+    font-size: 35px;
 }
 
 .head3 {
 
+}
+
+img {
+    width: 700px;
+    height: auto;
 }
