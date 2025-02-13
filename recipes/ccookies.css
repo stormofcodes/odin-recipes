@@ -1,14 +1,19 @@
 body {
-    background-color: #ebe1c5;
+    background-color: #ebd9c5;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(35, 22, 5);
 }
 
 .head,
 .head2,
 .head3 {
 
-    color: rgb(80, 49, 14);
+    color: rgb(104, 68, 27);
     font-family: 'Times New Roman', Times, serif;
 }
+
+
 
 .head {
     font-weight: 800;
@@ -16,14 +21,14 @@ body {
 }
 
 .head2 {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .head3 {
-
+    font-size: 25px;
 }
 
 img {
-    width: 700px;
+    width: 800px;
     height: auto;
 }
