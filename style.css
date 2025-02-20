@@ -1,19 +1,56 @@
 .header {
+    background-color: #ff003d29;
     color: rgb(80, 41, 25);
     font-family:'Times New Roman', Times, serif;
     font-weight: 800;
     font-size: 100px;
     text-align: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
 }
 
 .list
  {
+    display: block;
+    background-color: #ff003d29;
     font-size: 25px;
     text-align: center;
-    list-style-position: inside;
+    padding: 1px;
+    margin-top: -30px;
 
+}
+
+.imgc {
+    display: block;
+    margin-top: -80px;
+}
+
+@keyframes rainbow-fade {
+    0% {background-color: rgb(255, 88, 152);}
+    20% {background-color:rgb(255, 208, 121);}
+    40% {background-color: rgb(255, 255, 134);}
+    60% {background-color: rgb(161, 255, 161);}
+    80% {background-color: rgb(165, 165, 255);}
+    100% {background-color: rgb(255, 88, 152);}
+}
+
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: 5px solid rgb(255, 207, 221);
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    animation: rainbow-fade 5s infinite linear;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 body {
     background-color: rgb(255, 207, 221);
+}
+
+img {
+    width: 600px;
+    height: auto;
 }
